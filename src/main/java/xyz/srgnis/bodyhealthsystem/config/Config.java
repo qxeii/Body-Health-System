@@ -1,5 +1,7 @@
 package xyz.srgnis.bodyhealthsystem.config;
 
+import eu.midnightdust.lib.config.MidnightConfig;
+
 public class Config extends MidnightConfig {
 
     @Comment(centered = true) public static Comment comment_maxHealth;

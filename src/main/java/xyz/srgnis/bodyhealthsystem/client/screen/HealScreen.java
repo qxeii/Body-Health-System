@@ -143,7 +143,6 @@ public class HealScreen extends HandledScreen<HealScreenHandler> {
             active = part.isDamaged();
         }
 
-        @Override
         public void renderButton(DrawContext drawContext, int mouseX, int mouseY, float delta){
             int color = selectHealthColor(part);
             drawHealthRectangle(drawContext, this.getX(), this.getY(), width, height, color);
